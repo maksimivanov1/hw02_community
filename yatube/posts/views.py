@@ -1,8 +1,4 @@
-from multiprocessing import context
-from re import template
-from tokenize import group
 from django.shortcuts import render
-from django.http import HttpResponse
 from .models import Post, Group
 from django.shortcuts import get_object_or_404
 # Create your views here.

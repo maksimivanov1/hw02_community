@@ -1,5 +1,4 @@
 # posts/urls.py
-from tokenize import group
 from django.urls import path
 from . import views
 
