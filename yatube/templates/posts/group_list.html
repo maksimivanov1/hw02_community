@@ -18,6 +18,7 @@
       <p>
         {{ post.text }}
       </p>
+      {% if not forloop.last %}<hr>{% endif %}
     </article>         
   {% endfor %}
   {% include 'posts/includes/paginator.html' %}
